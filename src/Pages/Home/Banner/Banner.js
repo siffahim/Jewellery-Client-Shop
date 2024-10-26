@@ -6,9 +6,8 @@ const Banner = () => {
     return (
         <div className='banner-container'>
             <Container>
-                <p className='fs-6'><small>WOMEN'S JEWELLERY</small></p>
-                <h1 className='fw-normal fs-1'>FAMILY <span>JEWELLERY</span><br /> COLLECTION</h1>
-                <p>Follow your true passion, let your jewelry guide you.</p>
+                <p className='fs-10'><small>Budget Jewellery Collection</small></p>
+                <h1 className='fw-normal fs-1'>ZENITH <span>ELEMENTS</span></h1>
                 <button className='btn-regular'>Shop Now</button>
             </Container>
         </div>

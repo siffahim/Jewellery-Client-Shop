@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import logo from '../../images/logo.png';
+import logo from '../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 import Purchase from '../Purchase/Purchase';
 import Footer from '../Shared/Footer/Footer';
 import Navigation from '../Shared/Navigation/Navigation';

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import useAuth from '../../../Hooks/useAuth';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 import MyOrderCard from '../MyOrderCard/MyOrderCard';
 import './MyOrder.css';
 

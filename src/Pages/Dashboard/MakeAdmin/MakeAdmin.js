@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import swal from 'sweetalert';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 
 const MakeAdmin = () => {
     const emailRef = useRef('')

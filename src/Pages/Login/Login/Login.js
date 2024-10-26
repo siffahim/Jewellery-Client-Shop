@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
 import './Login.css';
@@ -38,7 +38,7 @@ const Login = () => {
 
                         <input type="submit" className="form-control btn-form" value='Login' />
                     </form>
-                    <p className='text-muted mt-4'>have an account? <Link to='/register'>Create an account</Link></p>
+                    <p className='text-muted mt-4'>Don't have an account? <Link to='/register'>Create an account</Link></p>
                 </div>
             </div>
             <Footer />
