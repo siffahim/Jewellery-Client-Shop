@@ -3,11 +3,7 @@ import Products from '../../Products/Products';
 import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
 import Banner from '../Banner/Banner';
-import Blog from '../Blog/Blog';
-import MoreInfo from '../MoreInfo/MoreInfo';
 import Service from '../Service/Service';
-import TopView from '../TopView/TopView';
-import InfoSection from './InfoSection/InfoSection';
 
 const Home = () => {
     const [females, setFemales] = useState([])
@@ -36,17 +32,7 @@ const Home = () => {
             <Navigation />
             <Banner />
             <Service />
-            <Products products={females}>
-                Woman
-            </Products>
-            <InfoSection />
-            <Products products={males}>
-                Man
-            </Products>
-            <TopView />
-            <MoreInfo />
             {/* <ReviewSection /> */}
-            <Blog />
             <Footer />
         </div>
     );

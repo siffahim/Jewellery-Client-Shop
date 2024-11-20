@@ -9,12 +9,11 @@ const Service = () => {
     }
     return (
         <Container className='custom-service'>
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={1} md={2} className="g-4">
                 <Col>
                     <div className='woman-card'>
                         <div>
-                            <h4 style={{ color: '#f44c7a' }}>Girls Accessories</h4>
-                            <p className='text-muted'>3000+ Products</p>
+                            <h4 style={{ color: '#f44c7a' }}>Female Accessories</h4>
                             <button onClick={handleChange} className='btn-service'>Shop Now</button>
                         </div>
                     </div>
@@ -22,17 +21,7 @@ const Service = () => {
                 <Col>
                     <div className='man-card'>
                         <div>
-                            <h4 style={{ color: '#03a98a' }}>Men Accessories</h4>
-                            <p className='text-muted'>4000+ Products</p>
-                            <button onClick={handleChange} className='btn-service'>Shop Now</button>
-                        </div>
-                    </div>
-                </Col>
-                <Col>
-                    <div className='kid-card'>
-                        <div>
-                            <h4 style={{ color: '#f77527' }}>Kids Accessories</h4>
-                            <p className='text-muted'>302+ Kids Products</p>
+                            <h4 style={{ color: '#03a98a' }}>Male Accessories</h4>
                             <button onClick={handleChange} className='btn-service'>Shop Now</button>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
 import swal from 'sweetalert';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 
 const CreateProduct = () => {
     const [createProduct, setCreateProduct] = useState({})

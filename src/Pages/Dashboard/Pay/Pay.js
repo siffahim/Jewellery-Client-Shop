@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/WhatsApp Image 2024-10-26 at 17.09.55.jpeg';
 import pay from '../../../images/payment2.png';
 
 const Pay = () => {

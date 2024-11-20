@@ -10,13 +10,10 @@ const Footer = () => {
             <div className='footer-container p-4'>
                 <ul>
                     <p className='fs-6 fw-bold'>CONTACT INFO</p>
-                    <li><i className="fas fa-map-marker-alt"></i> Mirpur-12,Doctor Goli,Road-N2.Dhaka,Bangladesh</li>
-                    <li><i className="fas fa-phone-alt"></i> 00965321402</li>
-                    <li><i className="fas fa-envelope"></i>worldtourism2021@gmail.com</li>
+                    <li><i className="fas fa-map-marker-alt"></i> IIT Patna, Bihta, Bihar - 801106</li>
+                    <li><i className="fas fa-phone-alt"></i>+91 8197026959</li>
+                    <li><i className="fas fa-envelope"></i>zenithelements@gmail.com</li>
                     <ul className='footer-icon'>
-                        <li className='me-2 icon'><i className="fab fa-facebook-square"></i></li>
-                        <li className='me-2 icon'><i className="fab fa-twitter-square"></i></li>
-                        <li className='me-2 icon'><i className="fab fa-linkedin"></i></li>
                         <li className='me-2 icon'><i className="fab fa-instagram-square"></i></li>
                     </ul>
                 </ul>
@@ -24,22 +21,7 @@ const Footer = () => {
                     <p className='fs-6 fw-bold'>INFORMATION</p>
                     <li><i className="fal fa-window-minimize"></i> About Us</li>
                     <li><i className="fal fa-window-minimize"></i> Delivery</li>
-                    <li><i className="fal fa-window-minimize"></i> Prices Drop</li>
-                    <li><i className="fal fa-window-minimize"></i> New Products</li>
-                    <li><i className="fal fa-window-minimize"></i> Best Seles</li>
-                </ul>
-                <ul>
-                    <p className='fs-6 fw-bold'>MY ACCOUNT</p>
-                    <li><i className="fal fa-window-minimize"></i> Personal Info</li>
-                    <li><i className="fal fa-window-minimize"></i> Orders</li>
-                    <li><i className="fal fa-window-minimize"></i> Our Services</li>
-                    <li><i className="fal fa-window-minimize"></i> Credit Slips</li>
-                    <li><i className="fal fa-window-minimize"></i> Addresses</li>
-                    <li><i className="fal fa-window-minimize"></i> My Wishlist</li>
-                </ul>
-                <ul>
-                    <p className='fs-6 fw-bold'>INSTAGRAM POST</p>
-                    <img width='300px' className='img-fluid' src={logo} alt="" />
+                    <li><i className="fal fa-window-minimize"></i> Diwali Sale</li>
                 </ul>
             </div>
             <div className='footer-copyright'>

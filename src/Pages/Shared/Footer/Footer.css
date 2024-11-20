@@ -1,12 +1,13 @@
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around; 
     background-color: rgb(17, 16, 16);
     color: #dcdde1;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding: 60px 20px;
+    text-align: center; 
 }
+
 
 .btn-regular {
     border: none;
@@ -37,20 +38,28 @@
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 li {
     margin: 10px 0;
+    justify-content:space-between;
 }
 
 .footer-container .fas {
     color: #c29958;
     margin-right: 5px;
+    align-content: center;
 }
 
 .far,
 .fal {
     color: #c29958;
+}
+.fal{
+    justify-content: space-between;
 }
 
 .text-custom {
@@ -67,7 +76,7 @@ li {
 
 .footer-copyright {
     text-align: center;
-    background-color: #0e0e0ef1;
+    background-color:  rgb(17, 16, 16) ;
     color: #dcdde1;
     padding-bottom: 20px;
     padding-top: 5px;
@@ -79,6 +88,7 @@ li {
     color: #fff;
     font-size: 2em;
     display: flex;
+    justify-content: space-around;
 }
 
 .footer-icon li {
